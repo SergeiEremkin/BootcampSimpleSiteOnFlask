@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,22 +8,19 @@
     <title>{{ title }}</title>
 </head>
 <style>
-        html{
-            background-color:blanchedalmond;
-        }
-button{
-    background-color: bisque;
-    
-}        
-</style> 
+    html {
+        background-color: blanchedalmond;
+    }
+
+    button {
+        background-color: bisque;
+
+    }
+</style>
 <body>
-
-{% block content %}
-<h1>Привет. Добро пожаловайть на мой сайт.</h1>
-<ol><b>На нем представлена следующая информация:</b></ol>   
-<li><button><a href ="/aboutme">Обо мне</a></button></li>
-<li><button><a href ="/myplans">Мои планы</a></button></li>
-{% endblock %}
-
+    <h1>Привет. Добро пожаловайть на мой сайт.</h1>
+    <ol><b>На нем представлена следующая информация:</b></ol>
+    <li><button><a href="/aboutme">Обо мне</a></button></li>
+    <li><button><a href="/myplans">Мои планы</a></button></li>
 </body>
 </html>
